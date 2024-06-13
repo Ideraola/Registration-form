@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="reg.css" rel="stylesheet">
+</head>
+<header>
+    <h1>Registration Form</h1>
+</header>
+<body>
+    <form>
+        <main>
+            <fieldset>
+                <legend> <h3>Personal Information</h3></legend>
+        <label for="surname">Surname</label>
+        <input type="text" id="surname" placeholder="your Surname" required><br><br>
+        <label for="fname">Firstname</label>
+        <input type="text" id="fname" placeholder="your Firstname" required><br><br>
+        <label for="mname">Middlename</label>
+        <input type="text" id="mname" placeholder="your middlename"><br><br>
+        <label>Gender</label>
+        <input type="radio" name="gender">
+        <label>Male</label>
+        <input type="radio" name="gender">
+        <label>Female</label><br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" placeholder="enter your dob" required><br><br>
+        <label for="no">Phone number</label>
+        <input type="tel" id="no" placeholder="input your digit"><br><br>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="your email" required><br><br>
+                 <label for="country">Country</label>
+        <select>
+            <option>selected</option>
+            <option>Nigeria</option>
+            <option>Australia</option>
+            <option>Germany</option>
+            <option>America</option>
+            <option>Europe</option>
+            <option>other</option>
+        </select><br><br>
+        <label for="sog">State of Origin</label>
+        <select>
+            <option>selected</option>
+            <option>Ogun State</option>
+            <option>Lagos State</option>
+            <option>Kwara State</option>
+            <option>Osun State</option>
+            <option>Delta State</option>
+            <option>Kaduna State</option>
+        </select><br><br>
+    </fieldset>
+
+    <section>
+        <fieldset>
+            <legend><h3>Educational Qualification</h3></legend>  
+         <label for="hq">Highest Qualification</label>
+         <select>
+            <option>selected</option>
+            <option>SSCE</option>
+            <option>OND</option>
+            <option>HND</option>
+            <option>BSC</option>
+            <option>Masters</option>
+            <option>PHD</option>
+        </select><br><br>
+         <label for="ia">Institution Attended</label>
+         <input type="text" id="ia" placeholder="your school" required><br><br>
+         <label for="sor">Statement of Result</label>
+        <input type="file" id="sor" placeholder="upload your result"><br><br>
+        </fieldset>    
+         </section>
+        <br><br>
+        <nav>
+        <label for="message">Message</label>
+        <textarea placeholder="write us a message"></textarea><br><br>
+        </nav>
+        <input type="checkbox" required>
+        <label>Terms and Condition</label><br><br>
+    </main>
+
+    <footer>
+        <input type="button" value="Reset">
+        <button>Submit</button>
+    </footer>
+    </form>
+    
+</body>
+</html>
